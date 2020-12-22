@@ -61,6 +61,7 @@ class Agent {
 
 	/**
 	 * Let the agent make an action, includes exploration through noise
+	 * 返回最终决策的行为
 	 * @param  {Array} state
 	 * @return {Array}       An action
 	 */

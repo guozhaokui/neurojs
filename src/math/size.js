@@ -26,6 +26,10 @@ module.exports = class Size {
 		return this.x * this.y * this.z
 	}
 
+	/**
+	 * 维度。最大到3
+	 * 例如 1,1,50表示是一维数据，长度50
+	 */
 	get dimensions() {
 		if (this.x * this.y * this.z === 0)
 			return 0
