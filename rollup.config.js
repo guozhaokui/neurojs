@@ -15,7 +15,7 @@ export default {
 		file: './build/neurojs.js',
 		format: 'iife', // immediately-invoked function expression — suitable for <script> tags
         sourcemap: false,
-        name:'neurojs',
+        //name:'neurojs',
         //intro:'window.Laya=window.Laya||exports||{};\n',
         //outro:layaexpreplace
         //indent: false

@@ -1,5 +1,5 @@
 function CheckSupport() {
-
+	/*
 	if (process !== undefined && !process.browser) {
 		if (process.version.indexOf('v') !== 0) {
 			throw 'unknown node version.';
@@ -23,7 +23,7 @@ function CheckSupport() {
 
 		return true;
 	}
-
+	*/
 	return true;
 
 }
