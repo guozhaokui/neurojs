@@ -1,7 +1,7 @@
 var deepqlearn = deepqlearn || { REVISION: 'ALPHA' };
 
 (function(global) {
-  "use strict";
+  
   
   // An agent is in state0 and does action0
   // environment then assigns reward0 and provides new state, state1
@@ -283,7 +283,7 @@ var deepqlearn = deepqlearn || { REVISION: 'ALPHA' };
 })(deepqlearn);
 
 (function(lib) {
-  "use strict";
+  
   if (typeof module === "undefined" || typeof module.exports === "undefined") {
     window.deepqlearn = lib; // in ordinary browser attach library to window
   } else {

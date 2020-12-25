@@ -1,4 +1,4 @@
-"use strict";
+
 
 Object.assign(RegExp, {
 
@@ -171,7 +171,7 @@ class Optim {
         var grad = _gradient.call(this);
 
         var fn =
-            `"use strict";
+            `
             var w = tensor.w, dw = tensor.dw, accdw = dw.acc;
             var dx, gij, grad, iteration = dw.iteration;
             if (iteration < 1) return ;

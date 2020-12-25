@@ -1,4 +1,4 @@
-"use strict";
+
 
 if (!require('./util/support.js')()) {
 	throw 'env unsupported';

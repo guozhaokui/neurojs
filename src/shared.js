@@ -96,25 +96,24 @@ class NetworkWrapper extends EventRadio {
 	}
 
 	set(value) {
-		var state
+		var state;
 
 		if (!value) {
-			return
+			return;
 		}
 
 		if (value.constructor.name === 'State') {
-			state = value
+			state = value;
 		}
-
 		else if (value.constructor.name === 'Configuration' || value.constructor.name === 'Model') {
-			state = value.newState()
+			state = value.newState();
 		}
 
-		this.net = state
-		this.config = state.configuration
-		this.model = state.model
+		this.net = state;
+		this.config = state.configuration;
+		this.model = state.model;
 
-		this.trigger('set', [ state ])
+		this.trigger('set', [ state ]);
 	}
 
 	useOptimizer(optim) {

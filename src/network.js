@@ -1,4 +1,4 @@
-"use strict";
+
 
 var dot = require('./layers/dot.js')
 var dropout = require('./layers/dropout.js')
@@ -14,9 +14,6 @@ var Optim = require('./optim.js')
 
 var SharedConfiguration = require('./shared.js')
 
-if (typeof window === 'undefined') {
-	require('colors');
-}
 
 // defines how the network looks; which layers etc.
 class Model {
