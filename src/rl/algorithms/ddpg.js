@@ -106,6 +106,7 @@ class DDPG extends Algorithm {
 	}
 
 	optimize(e, descent = true) {
+		//number
 		var target = e.target()
 		var value = e.estimate()
 
